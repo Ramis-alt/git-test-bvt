@@ -1,0 +1,70 @@
+html,body{
+    margin: 0;  /* removes the margin from the html page */
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #bf3100;
+}
+
+.container {
+    display: flex;
+    height: 400px;  /* size of the containers height */
+    width: 400px;  /* size of the containers width */
+    border: none;
+    margin: auto;  /* helps align the content in the center */
+    margin-top: 60px;  /* moves the whole container down */
+    border-radius: 20px;
+    background-color: #d76a03;
+    box-shadow: 0 20px 30px 10px rgba(0, 0, 0, .5);
+}
+    
+/* login form positioning */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  /* gives the forms 100% of the space so they can expand */
+    align-items: center;
+    margin-top: 40px;  /* moves the content inside the form down from top to bottom (login, forms, and submit button) */
+    
+}
+/* form editing */
+.box {
+    display: flex;
+    padding: 10px;  /* widdens the forms */
+    width: 55%;  /* forms stretch out 55% of the total container width evenly */
+    margin: 12px; /* gives the form extra margin all around */
+    border-radius: 12px;  /* rounds out the edges of the forms */
+    border: none;
+}
+/* h2 element editing */
+.form h2 {
+    font-size: 45px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+/* changes the color of the submit button when cursor hovers over it */
+#submit:hover {
+    cursor: pointer;
+    background-color: #ec9f05;
+}
+
+#submit {
+    padding: 8px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+}
+
+.form a {
+    text-decoration: none;  /* removes the underlines */
+    color: black;
+    margin-top: 10px;
+}
+
+.form a:hover {
+    cursor: pointer;
+    color: rgb(143, 73, 40);
+}
